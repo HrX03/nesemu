@@ -1,0 +1,22 @@
+name: nesemu
+description: Attempt to use https://github.com/Macdu/nes_emulator/ on flutter with canvas api. The NES emulator code is not mine and has been copied from the original repo to modify the graphical part
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image:
+  file_picker:
+  image_picker:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
